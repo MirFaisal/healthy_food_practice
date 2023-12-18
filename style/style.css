@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* common css */
+.btn {
+  /* margin-top: 100px; */
+  display: inline-block;
+  padding-block: 22px;
+  padding-inline: 44px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    #fd1d1d 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+.btn:hover {
+  box-shadow: 0px 0px 70px -25px rgba(253, 29, 29, 0.75);
+}
+/*  */
+#banner .main-banner {
+  display: flex;
+  justify-content: center;
+}
+#banner .main-banner .text {
+  width: 600px;
+  padding-block-start: 262px;
+  /* background: #841b1b; */
+}
+#banner .main-banner .text h1 {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 78px */
+  letter-spacing: -1.2px;
+  margin-block-end: 38px;
+}
+#banner .main-banner .text p {
+  color: #828282;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.4px;
+  margin-block-end: 50px;
+}
+#banner .main-banner .showcase {
+  margin-block-start: 83px;
+}
