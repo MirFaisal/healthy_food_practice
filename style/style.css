@@ -57,3 +57,50 @@
 #banner .main-banner .showcase {
   margin-block-start: 83px;
 }
+
+/* about section start */
+#about {
+  height: 600px;
+  background: url("../image/7.png") no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+#about .main-about {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .main-about .showcase {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* border: 2px solid red; */
+}
+#about .main-about .text {
+  padding-inline-start: 50px;
+  width: 50%;
+}
+#about .main-about .text h2 {
+  padding-block-end: 32px;
+  color: #707070;
+
+  font-feature-settings: "liga" off;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px; /* 135% */
+}
+#about .main-about .text p {
+  padding-block-end: 90px;
+  color: #18191f;
+  font-family: Montserrat;
+  width: 444px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
