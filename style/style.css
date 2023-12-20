@@ -161,3 +161,32 @@
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
+
+/* counter style */
+#counter .main-counter {
+  display: flex;
+  justify-content: space-around;
+  margin-block-start: 106px;
+  padding-block: 64px;
+  width: 1239px;
+  margin-inline: auto;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+}
+#counter .main-counter .item h3 {
+  color: #18191f;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+}
+#counter .main-counter .item p {
+  color: #18191f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
